@@ -10,7 +10,7 @@ ob_start();
                 <p class="text-muted mb-0">Order #O001</p>
             </div>
             <div class="col-auto">
-                <!-- 绑定了 onclick="window.print()" 触发浏览器打印 -->
+               
                 <button type="button" onclick="window.print()" class="btn btn-primary no-print">
                     <i class="bi bi-printer me-1"></i>Print
                 </button>
@@ -82,7 +82,6 @@ ob_start();
     </div>
 </div>
 
-<!-- 打印专用的 CSS 样式控制（核心 To Do 需求） -->
 <style>
 @media print {
   

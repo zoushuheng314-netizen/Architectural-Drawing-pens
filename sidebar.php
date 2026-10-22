@@ -1,8 +1,8 @@
 <div id="mySidebar" class="col-auto bg-dark text-white offcanvas-lg offcanvas-start">
     <div class="p-4">
-        <a href="products.php" class="navbar-brand">
+        <a href="home.php" class="navbar-brand">
             <div class="row">
-                <h5 class="">Architectural Drawing pens</h5>
+                <h5 class="mb-0">Architectural Drawing pens</h5>
             </div>
         </a>
 
@@ -10,27 +10,28 @@
 
         <ul class="mynav nav nav-pills flex-column">
             <li class="nav-item mb-3 mt-2">
+                <a href="home.php" class="text-decoration-none text-white">
+                    <i class="bi bi-house-fill me-2"></i> Home
+                </a>
+            </li>
+            <li class="nav-item mb-3">
                 <a href="products.php" class="text-decoration-none text-white">
-                    <i class="bi bi-pen-fill me-2"></i>
-                    Products
+                    <i class="bi bi-pen-fill me-2"></i> Products
                 </a>
             </li>
             <li class="nav-item mb-3">
                 <a href="customers.php" class="text-decoration-none text-white">
-                    <i class="bi bi-people-fill me-2"></i>
-                    Customers
+                    <i class="bi bi-people-fill me-2"></i> Customers
                 </a>
             </li>
             <li class="nav-item mb-3">
                 <a href="staffs.php" class="text-decoration-none text-white">
-                    <i class="bi bi-person-badge-fill me-2"></i>
-                    Staffs
+                    <i class="bi bi-person-badge-fill me-2"></i> Staffs
                 </a>
             </li>
             <li class="nav-item mb-3">
                 <a href="orders.php" class="text-decoration-none text-white">
-                    <i class="bi bi-cart-fill me-2"></i>
-                    Orders
+                    <i class="bi bi-cart-fill me-2"></i> Orders
                 </a>
             </li>
         </ul>
@@ -51,6 +52,5 @@
                 <li><a class="dropdown-item" href="#">Logout</a></li>
             </ul>
         </div>
-
     </div>
 </div>
