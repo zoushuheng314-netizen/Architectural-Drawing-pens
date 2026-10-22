@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My App</title>
+  <title>Architectural Drawing pens</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
@@ -12,9 +12,10 @@
        
       <div id="mySidebar" class="col-auto bg-dark text-white offcanvas-lg offcanvas-start">
         <div class="p-4">
+         
           <a href="#" class="navbar-brand">
             <div class="row">
-              <h5 class="">My Company</h5>
+              <h5 class="">Architectural Drawing pens</h5>
             </div>
           </a>
           <hr>                  
@@ -55,17 +56,17 @@
         </div>
       </div>
  
-      <div class="col-auto">
+      <div class="col bg-light">
         <div id="myBurger" class="p-3 d-lg-none text-white bg-dark">
           <div class="row">
             <a href="#" class="text-white text-decoration-none" data-bs-toggle="offcanvas" data-bs-target="#mySidebar">
-              <i class="bi bi-list"></i><h5 class="ms-3 d-inline">My Company</h5>
+              <i class="bi bi-list"></i><h5 class="ms-3 d-inline">Architectural Drawing pens</h5>
             </a>
           </div>
         </div>
          
         <div class="p-4">
-          Put content here.
+         <?= $content ?? '' ?>
         </div>
       </div>
       </div>
