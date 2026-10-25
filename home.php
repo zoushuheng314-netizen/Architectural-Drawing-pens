@@ -21,6 +21,54 @@ ob_start();
 </div>
 
 
+<div class="row g-3 mb-4">
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-box-seam fs-1 text-primary me-3"></i>
+                <div>
+                    <h6 class="text-muted mb-0">Total Products</h6>
+                    <h4 class="fw-bold mb-0">24</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-people fs-1 text-success me-3"></i>
+                <div>
+                    <h6 class="text-muted mb-0">Total Customers</h6>
+                    <h4 class="fw-bold mb-0">89</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-person-badge fs-1 text-warning me-3"></i>
+                <div>
+                    <h6 class="text-muted mb-0">Total Staffs</h6>
+                    <h4 class="fw-bold mb-0">12</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-cart-check fs-1 text-info me-3"></i>
+                <div>
+                    <h6 class="text-muted mb-0">Total Orders</h6>
+                    <h4 class="fw-bold mb-0">158</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div class="card shadow-sm mb-4">
     <div class="card-body">
         <h5 class="mb-3"><i class="bi bi-stars text-warning me-2"></i>Featured Product Lines</h5>
