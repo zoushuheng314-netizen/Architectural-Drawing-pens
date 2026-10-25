@@ -10,7 +10,6 @@ ob_start();
                 <p class="text-muted mb-0">Order #O001</p>
             </div>
             <div class="col-auto">
-               
                 <button type="button" onclick="window.print()" class="btn btn-primary no-print">
                     <i class="bi bi-printer me-1"></i>Print
                 </button>
@@ -66,6 +65,10 @@ ob_start();
                         <td>1</td>
                         <td class="text-end">$15.00</td>
                     </tr>
+                  
+                    <tr>
+                        <td colspan="5" class="text-center">No products added to this order</td>
+                    </tr>
                 </tbody>
                 <tfoot>
                     <tr>
@@ -84,21 +87,18 @@ ob_start();
 
 <style>
 @media print {
-  
     #mySidebar,
     #myBurger,
     .no-print {
         display: none !important;
     }
 
-   
     .card,
     .print-card {
         border: none !important;
         box-shadow: none !important;
     }
 
-    
     body {
         background-color: #fff !important;
     }
